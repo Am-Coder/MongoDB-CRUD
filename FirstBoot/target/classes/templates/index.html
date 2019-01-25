@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Provide the details to update the database:</div>
+        <form method="get" action="/Student">
+            Give the First name:
+            <input type="text" name="firstName">
+            <br>
+            <br>
+            Give the Last name:
+            <input type="text" name="lastName">
+            <br>
+            <br>
+            Give the roll no:
+            <input type="text" name="id">
+            
+            <input type="submit" value="Go">
+            <br>
+            <br>
+        </form>
+        
+        <div>Find:</div>
+        <form method="get" action="/Find">
+
+            Give the roll no:
+            <input type="text" name="id">
+            
+            <input type="submit" value="Go">
+            <br>
+            <br>
+            
+            
+        </form>
+        <br>
+        <br>
+        <div>Update:</div>
+        <form method="get" action="/Update">
+
+            Give the roll no:
+            <input type="text" name="id">
+            
+            <input type="submit" value="Go">
+            
+            Give the New firstName:
+            <input type="text" name="newRollNo">
+            <br>
+            <br>
+        </FORM>
+        
+        <div>Delete:</div>
+        <form method="get" action="/Delete">
+
+            Give the roll no:
+            <input type="text" name="id">
+
+            <input type="submit" value="Go">
+            <br>
+            <br>
+        </FORM>
+        
+        <form action="move" method="get">
+            Go to NLP tester:
+            <input type="submit" value="go">
+        </form>
+    </body>
+</html>

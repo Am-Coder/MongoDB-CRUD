@@ -1,0 +1,6 @@
+com\site\boot\GlobalExceptionHandler.class
+com\site\boot\repo\RepositoryStudent.class
+com\site\boot\entities\Student.class
+com\site\boot\entities\Doctor.class
+com\site\boot\repo\RepositoryDoctor.class
+com\site\boot\SBootApplication.class
